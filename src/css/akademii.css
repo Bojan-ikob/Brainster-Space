@@ -1,0 +1,70 @@
+.voved-akademii {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 75px 0px;
+}
+.akademii-text {
+  width: 30%;
+  padding: 0px 50px 0px 0px;
+}
+.akademii-img {
+  background-image: url("../images/IMG_7481.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  width: 70%;
+}
+.akademii-text h1 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+.akademii-text p {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(85, 84, 84);
+}
+.academii-crds {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+}
+.cardAcademii h1 {
+  color: white;
+  font-size: 35px;
+  margin-bottom: 200px;
+}
+.cardAcademii:hover{
+  transform: scale(1.025);
+}
+.cardAcademii p {
+  color: white;
+}
+.cardAcademii {
+  background-image: url("../images/nastani.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  width: 30%;
+  margin-top: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .akademii-text,
+  .akademii-img {
+    width: 100%;
+  }
+  .cardAcademii {
+    width: 45%;
+  }
+  .cardAcademii h1{
+    font-size: 25px;
+  }
+}

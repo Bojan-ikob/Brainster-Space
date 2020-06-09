@@ -1,0 +1,141 @@
+.edukacija {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+.opis,
+.opisZaKompanii {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  padding: 50px 50px 0px 0px;
+}
+
+.slikaa {
+  width: 60%;
+  padding: 25px 0;
+}
+.slikaa img {
+  border-radius: 7px;
+  width: 100%;
+}
+.yelowBtn {
+  background-color: orange;
+  color: black;
+}
+.blackBtn {
+  background-color: black;
+  color: orange;
+}
+.kopcinja {
+  padding: 10px 25px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+.opis p {
+  color: rgb(85, 84, 84);
+  font-size: 14px;
+  font-weight: bold;
+}
+.opis h1 {
+  font-size: 50px;
+}
+.opis-prostor p {
+  color: rgb(85, 84, 84);
+  font-size: 14px;
+  font-weight: bold;
+}
+.opis-prostor h1 {
+  font-size: 50px;
+}
+.opis-k p {
+  color: rgb(85, 84, 84);
+  font-size: 14px;
+  font-weight: bold;
+}
+.opis-k h1 {
+  font-size: 50px;
+}
+.b-p h1{
+  font-size: 50px;
+}
+.b-p p{
+  color: rgb(85, 84, 84);
+  font-size: 14px;
+  font-weight: bold;
+}
+.black-p {
+  color: rgb(85, 84, 84);
+  font-size: 14px;
+  font-weight: bold;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.cow {
+  padding: 0px 50px;
+}
+.coworking{
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.prodadeno{
+  background-color: orange;
+  padding: 10px 20px;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  max-width: max-content;
+}
+.linethrou{
+  text-decoration: line-through;
+}
+.st{
+  max-width: max-content;
+}
+.orange{
+  color: orange;
+}
+.showp{
+  color: rgb(85, 84, 84);
+  margin-top: 25px;
+  font-size: 15px;
+  color: black;
+  background-color: rgb(155, 151, 151);
+  padding: 10px 25px;
+  border-radius: 5px;
+  max-width: max-content;
+}
+.hidep{
+  margin-top: 25px;
+  color: rgb(207, 207, 207);
+  font-size: 15px;
+  padding: 10px 25px;
+}
+.text-host h1{
+  font-size: 50px;
+}
+.text-host p{
+  color: rgb(85, 84, 84);
+  font-size: 14px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  .opis, 
+  .slikaa,
+  .opisZaKompanii{
+    width: 100%;
+  }
+}

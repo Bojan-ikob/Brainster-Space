@@ -1,0 +1,207 @@
+.card {
+  margin: 25px 0px;
+  width: 30%;
+  border: 2px solid gray;
+  box-shadow: 0 8px 6px -6px black;
+}
+.card:hover {
+ transform: scale(1.025);
+}
+.eduImg {
+  background-image: url("../images/edukacija1.jpg");
+}
+.nastaniImg {
+  background-image: url("../images/nastani.jpg");
+}
+.coworkImg {
+  background-image: url("../images/edukacija2.jpg");
+}
+.ProstorImg {
+  background-image: url("../images/prostor\ za\ nastani.jpg");
+}
+.partnerstvoImg {
+  background-image: url("../images/partnerstva\ so\ tech\ komp.jpg");
+}
+.inovaciiImg {
+  background-image: url("../images/IMG_7397.jpg");
+}
+.codeworksImg {
+  background-image: url("../images/IMG_7481.jpg");
+}
+.ddmImg {
+  background-image: url("../images/instruktori.jpg");
+}
+.dataScienceImg {
+  background-image: url("../images/Hristijan-Nosecka-1024x536.jpg");
+}
+h3 {
+  font-size: 30px;
+}
+.cardd {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+.opisCadr {
+  padding: 10px;
+}
+.rgba {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.arrowDiv {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.arrowDiv span i {
+  font-size: 50px;
+  color: darkgray;
+}
+.text-center {
+  text-align: center;
+}
+.coworking {
+  margin: 50px 0px;
+}
+.partneri {
+  text-align: center;
+  padding: 25px 0px 50px 0px;
+}
+.partneri h3{
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.partneri h1{
+  font-size: 50px;
+}
+.prostorii {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+}
+.opis-prostor {
+  width: 25%;
+}
+.sliki-prostorii {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.s-p-i {
+  width: 30%;
+}
+.s-p-i img {
+  width: 100%;
+  height: 200px;
+}
+.nudime{
+  width: 90%;
+  margin: 0 auto;
+}
+.black-p{
+  color:white;
+  background-color: black;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 3px;
+  max-width: max-content;
+}
+.black-p i{
+  color: orange;
+  margin-right: 10px;
+}
+.b-p{
+  display: flex;
+
+}
+.host{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 100px  0px;
+  flex-wrap: wrap;
+}
+.text-host {
+  width: 50%;
+}
+.host-img{
+  background-image: url("../images/Untitled.jpg");
+  height: 80vh;
+  background-position: center;
+  width: 40%;
+}
+.all-cards{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.one-card{
+  width: 30%;
+  padding: 25px;
+}
+.one-card:hover{
+  transform: scale(1.025);
+}
+.bottom-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.categorija{
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  padding:  5px 10px;
+}
+.fa-arrow-circle-o-right{
+  font-size: 35px;
+}
+@media only screen and (max-width: 768px) {
+  .card{
+    width: 45%;
+  }
+  .one-card{
+    width: 45%;
+  }
+.opis-prostor,
+.sliki-prostorii{
+  width: 100%;
+}
+.s-p-i{
+  width: 45%;
+}
+.host{
+  flex-direction: row-reverse;
+}
+.host-img,
+.text-host{
+  width: 45%;
+}
+}
+
+@media only screen and (max-width: 426px) {
+  .card,
+  .one-card,
+  .s-p-i,
+  .black-p{
+    width: 100%;
+  }
+  .b-p{
+    flex-direction: column;
+  }
+  .host-img,
+  .text-host{
+    width: 100%;
+  }
+}

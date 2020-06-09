@@ -1,0 +1,31 @@
+.showCategorii ul li {
+  display: inline;
+  font-size: 10px;
+}
+.showCategorii {
+  width: 60%;
+  margin: 0 auto;
+  max-width: max-content;
+}
+
+@media screen and (max-width: 768px) {
+  .showCategorii {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .showCategorii ul li {
+    display: block;
+    font-size: 10px;
+  }
+  .showCategorii {
+    position: fixed;
+    top: 85px;
+    z-index: 1;
+    right: 35px;
+    background-color: black;
+  }
+  .hide-filter{
+      display: none;
+  }
+}

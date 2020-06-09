@@ -1,0 +1,147 @@
+ul li {
+  list-style-type: none;
+  display: inline;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 10px;
+  cursor: pointer;
+}
+ul li a:hover {
+  color: black;
+  text-decoration: none;
+}
+ul {
+  margin-left: 60px;
+  padding: 0;
+  margin: 0;
+}
+.navs {
+  width: 80%;
+}
+.l-l {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 25px 0px;
+}
+.logo {
+  width: 15%;
+  cursor: pointer;
+  margin-right: 50px;
+}
+.prikluci {
+  right: 5px;
+}
+.prikluci ul li {
+  color: orange;
+  background-color: black;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+span {
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.categorii ul li {
+  list-style-type: none;
+  display: inline;
+  cursor: pointer;
+}
+.showCategorii {
+  padding: 10px 15px;
+  background-color: lightslategrey;
+  width: 70%;
+  margin: 0 auto;
+}
+.hideCategorii {
+  display: none;
+}
+a li {
+  color: black;
+}
+.menu-right {
+  display: flex;
+  align-items: center;
+}
+.menu-hamburger {
+  display: none;
+}
+.active {
+  border-bottom: orange 2px solid;
+}
+.filter-mob-menu {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .menu-hamburger {
+    font-size: 25px;
+    display: flex;
+    background-color: black;
+    color: orange;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 4px;
+  }
+
+  .d-none {
+    display: none;
+  }
+
+  .header {
+    position: relative;
+    justify-content: space-between;
+  }
+ 
+  .navs-mobile {
+    position: absolute;
+    top: 120px;
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+  }
+
+  ul li {
+    display: block;
+    color: white;
+    text-align: center;
+    z-index: 1;
+  }
+
+  li {
+    margin-top: 5px;
+  }
+  .b-a {
+    color: white;
+  }
+  .b-a:hover {
+    color: white;
+  }
+  .l-l {
+    width: 15%;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .prikluci {
+    display: none;
+  }
+  .filter-mob-menu {
+    display: block;
+    font-size: 25px;
+    background-color: black;
+    color: orange;  
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 4px;
+    margin-right: 15px;
+  }
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Академија за графички дизајн",
+        "mesta": "Слободни места: 4",
+        "upisi": "Уписи до: 26.08.2020",
+        "postani": "Стани дизајнер за 7 месеци",
+        "partneri": "Партнери за вработување: 5",
+        "image": "C1 1.jpg",
+        "bcolor": "0, 255, 0, 0.2",
+        "link": "https://design.brainster.co/?utm_source=brainster.co&utm_medium=academies&utm_campaign=website&utm_content=design"
+    },
+    {
+        "title": "Академија за дигитален маркетинг",
+        "mesta": "Слободни места: 4",
+        "upisi": "Уписи до: 26.08.2020",
+        "postani": "Стани маркетер за 7 месеци",
+        "partneri": "Партнери за вработување: 5",
+        "image": "edukacija2.jpg",
+        "bcolor": "255, 0, 0, 0.2",
+        "link": "https://marketpreneurs.brainster.co/?utm_source=brainster.co&utm_medium=academies&utm_campaign=website&utm_content=mkt"
+    },
+    {
+        "title": "Академија за Front-end програмирање",
+        "mesta": "Слободни места: 4",
+        "upisi": "Уписи до: 26.08.2020",
+        "postani": "Стани front-end програмер за 7 месеци",
+        "partneri": "Партнери за вработување: 5",
+        "image": "edukacija1.jpg",
+        "bcolor": "0, 0,  255, 0.2",
+        "link": "https://codepreneurs.brainster.co/?utm_source=brainster.co&utm_medium=academies&utm_campaign=website&utm_content=frontend"
+    },
+    {
+        "title": "Академија за Full-stack програмирање",
+        "mesta": "Слободни места: 4",
+        "upisi": "Уписи до: 26.08.2020",
+        "postani": "Стани Full-stack програмер за 7 месеци",
+        "partneri": "Партнери за вработување: 5",
+        "image": "nastani.jpg",
+        "bcolor": "0, 0, 255, 0.2",
+        "link": "https://codepreneurs.brainster.co/?utm_source=brainster.co&utm_medium=academies&utm_campaign=website&utm_content=fullstack"
+    },
+    {
+        "title": "Академија за Data science",
+        "mesta": "Слободни места: 4",
+        "upisi": "Уписи до: 26.08.2020",
+        "postani": "Стани data science за 7 месеци",
+        "partneri": "Партнери за вработување: 5",
+        "image": "2.jpg",
+        "bcolor": "255, 0, 0, 0.2",
+        "link": "https://datascience.brainster.co/?utm_source=brainster.co&utm_medium=academies&utm_campaign=website&utm_content=data_science"
+    },
+    {
+        "title": "Академија за software testing",
+        "mesta": "Слободни места: 4",
+        "upisi": "Уписи до: 26.08.2020",
+        "postani": "Стани софтвер тестер за 7 месеци",
+        "partneri": "Партнери за вработување: 5",
+        "image": "edukacija.jpg",
+        "bcolor": "0, 255, 0, 0.2",
+        "link": "https://qa.brainster.co/?utm_source=brainster.co&utm_medium=academies&utm_campaign=website&utm_content=qa"
+    }
+]

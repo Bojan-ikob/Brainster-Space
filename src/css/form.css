@@ -1,0 +1,74 @@
+.full-contact {
+  text-align: center;
+  background-color:rgb(207, 207, 207);
+}
+.full-contact h1 {
+  color: rgb(24, 23, 23);
+  font-size: 50px;
+  margin: 15px 0 0 0;
+  border-bottom: 1px solid darkgray;
+}
+.contact-div {
+  width: 80%;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-div h1 {
+  color: whitesmoke;
+}
+.subBtn {
+  padding: 10px 30px;
+  background-color: black;
+  color: orange;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.pod1 input,
+select {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 4px;
+}
+input {
+  width: 90%;
+}
+.pod2 select {
+  width: 90%;
+}
+#sektor{
+  margin: 15px;
+}
+.pod2 textarea {
+  width: 90%;
+  height: 150px;
+  margin-top: 50px;
+  border-radius: 4px;
+}
+.pod1,
+.pod2 {
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .pod1,
+  .pod2{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 426px) {
+  .contact-div {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .pod1,
+  .pod2 {
+    width: 100%;
+  }
+  h1 {
+    margin: 15px 0 0 0;
+    font-size: 40px;
+  }
+}

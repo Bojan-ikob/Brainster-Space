@@ -1,0 +1,116 @@
+.footer {
+  width: 90%;
+  margin: 0 auto;
+  padding: 25px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid rgb(155, 152, 152);
+}
+.listi {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.lista {
+  width: 25%;
+}
+.lista ul li {
+  list-style-type: none;
+  display: flex;
+  margin: 5px 0px;
+}
+.lista ul {
+  padding: 0;
+  margin: 0;
+}
+.mrezi {
+  width: 25%;
+  margin-left: 25px;
+}
+.logo {
+  position: relative;
+  width: 20%;
+}
+.logo img {
+  width: 75px;
+}
+.t-c {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(177, 175, 175);
+  padding: 5px 0;
+}
+.t-c p {
+  color: black;
+}
+.fa {
+  margin: 5px 7px;
+}
+.fa-facebook-official {
+  font-size: 30px;
+  color: blue;
+}
+.fa-linkedin-square {
+  font-size: 30px;
+  color: rgb(50, 163, 216);
+}
+.fa-instagram {
+  font-size: 30px;
+  color: red;
+}
+.popup{
+  position: fixed;
+  bottom: 250px;
+  left: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  padding: 25px 10px;
+}
+.hide-popup{
+  display: none;
+}
+.close-fw{
+  text-align: right;
+} 
+ul li a{
+  color: black;
+}
+ul li a:hover{
+  text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+  .listi{
+    width: 70%;
+  }
+  .mrezi,
+  .lista{
+    width: 40%;
+  }
+  .lista ul li {
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+.footer{
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+.listi{
+  flex-direction: column;
+}
+.lista,
+.mrezi{
+  width: 100%;
+  margin-top: 15px;
+}
+.mrezi{
+  margin: 15px 0px
+}
+}

@@ -1,0 +1,74 @@
+.s-kichen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 100px 0px;
+  height: 70vh;
+}
+.prvi-sliki,
+.k-sl,
+.opis-k {
+  width: 32%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.k-sl {
+  background-image: url("../images/IMG_7362.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.prvi-sliki {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.p-p-p {
+  background-image: url("../images/IMG_7777.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 48%;
+}
+.vtori-sliki {
+  height: 48%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pola-k1 {
+  background-image: url("../images/IMG_7385.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 47%;
+}
+.pola-k2 {
+  background-image: url("../images/IMG_7361.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 47%;
+}
+
+@media only screen and (max-width: 768px) {
+  .s-kichen{
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  .prvi-sliki,
+  .k-sl,
+  .opis-k {
+    width: 100%;
+    /* display: flex;
+    flex-wrap: wrap; */
+  }
+  .pola-k1,
+  .pola-k2,
+  .p-p-p,
+  .k-sl{
+    height: 250px;
+    margin-top: 25px;
+  }
+}
